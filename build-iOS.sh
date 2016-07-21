@@ -3,9 +3,9 @@
 
 cp boost-build-club-project-config.jam project-config.jam
 
-echo \n\n\n
+echo;echo;echo
 echo Building boost for iOS
-echo \n\n\n
+echo;echo;echo
 
 # Following Pete Goodliffe, invent a missing header.
 #

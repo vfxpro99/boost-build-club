@@ -32,8 +32,7 @@ Usage
 First, copy the contents of this directory into your boost source root, the same directory
 that contains boost's bootstrap scripts. cd into that directory, and then:
 
-- For OSX/iOS, chmod the appropriate shell script to allow execution, then run ./build-iOS.sh or ./build-OSX.sh - these will create static versions of
-  the libraries.
+- For OSX/iOS, chmod the appropriate shell script to allow execution, then run it.
 - For Windows, run build-win-shared.bat or build-win-static.bat
 - For other platforms, please send me a pull request!
 
