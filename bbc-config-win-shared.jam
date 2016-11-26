@@ -86,7 +86,7 @@ using msvc : 14.0 ;
 # ---------------------
 
 # using python : 2.6 : C:\\Python\\Python26\\python ;
-using python : 2.7 : C:\\Python\\Python27 : : : <address-model>64 ;
+using python : 2.7 : C:\\Python27 : : : <address-model>64 ;
 
 # ---------------------
 # OSX configuration.
