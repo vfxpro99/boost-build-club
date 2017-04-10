@@ -39,6 +39,11 @@ that contains boost's bootstrap scripts. cd into that directory, and then:
 The built libraries will appear in a staging directory with a platform specific name such
 as stage-OSX or whatever.
 
+Note that there is a replacement bootstrap.bat in bbc, because sometimes boost.build
+prefers to build a debug version of bjam and b2 and the bootstrap script must notice
+that too. This might happen if you have vc2017 and vc2015 installed at the same time.
+bootstrap.bat is too clever for its own good.
+
 Acknowledgements
 ----------------
 Some points borrowed from Pete Goodliffe's original build script,
