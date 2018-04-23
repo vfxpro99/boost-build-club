@@ -1,6 +1,9 @@
 boost-build-club is for people who need to build boost!
 -------------------------------------------------------
 
+Note: For Windows builds of boost, please see Studio Freya's 
+boost-build-scripts https://github.com/vfxpro99/boost-build-scripts
+
 Boost is built using a proprietary build system called bjam. The documentation for the
 system is written in the classic mold of telling you everything, yet nothing at the same 
 time. There are dozens of pages explaining the myriad of command line options and 
